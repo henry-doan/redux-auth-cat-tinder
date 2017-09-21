@@ -1,3 +1,25 @@
+# To Run The app
+
+Run these in the terminal, be sure to have one terminal tab in the root directory and run these commands
+
+```
+bundle install
+
+bundle exec rake db:create db:migrate db:seed
+
+bundle exec rails -p 3001
+```
+
+In a different terminal tab that is in the same project, run these commands:
+
+```
+cd client
+
+yarn install
+
+yarn start
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
